@@ -6,7 +6,7 @@ function Header() {
     <div className="from-[#231E3D] to-[#2B263F] bg-gradient-to-b w-full h-screen">
       <Navbar />
       <div className="flex pt-8">
-        <div className="w-[800px] container mx-auto pt-20">
+        <div className="w-[800px] container mx-auto pt-24">
           <h1 className="font-bold text-[4.2rem] w-[79%] text-white leading-[5rem]">
             The power of now, the <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0]"> future </span>
              of you
