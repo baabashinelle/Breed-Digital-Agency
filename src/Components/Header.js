@@ -3,13 +3,17 @@ import Navbar from './Navbar'
 
 function Header() {
   return (
-    <div className="from-[#231E3D] to-[#2B263F] bg-gradient-to-b w-full h-screen overflow-hidden">
+    <div className="from-[#2B263F] to-[#231E3D] bg-gradient-to-b w-full h-screen overflow-hidden">
       <Navbar />
       <div className="flex pt-8">
         <div className="w-[800px] container mx-auto pt-24">
           <h1 className="font-bold text-[4.2rem] w-[79%] text-white leading-[5rem]">
-            The power of now, the <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0]"> future </span>
-             of you
+            The power of now, the{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0]">
+              {" "}
+              future{" "}
+            </span>
+            of you
           </h1>
           <div className="flex justify-start mt-7">
             <div>
