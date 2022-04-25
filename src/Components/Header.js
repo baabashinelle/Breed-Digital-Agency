@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 function Header() {
   return (
-    <div className="from-[#231E3D] to-[#2B263F] bg-gradient-to-b w-full h-screen">
+    <div className="from-[#231E3D] to-[#2B263F] bg-gradient-to-b w-full h-screen overflow-hidden">
       <Navbar />
       <div className="flex pt-8">
         <div className="w-[800px] container mx-auto pt-24">
