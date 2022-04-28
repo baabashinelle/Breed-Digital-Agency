@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Companies />
       <Services />
-      {/*<Experience/>*/}
+      <Experience/>
     </div>
   );
 }
