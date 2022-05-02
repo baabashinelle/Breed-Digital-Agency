@@ -3,6 +3,7 @@ import Companies from './Components/Companies'
 import Services from './Components/Services';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects';
+import Clients from './Components/Clients';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Experience/>
       <Projects/>
+      <Clients/>
     </div>
   );
 }

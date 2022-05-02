@@ -26,6 +26,7 @@ function Projects() {
       </div>
       {/*Carousel*/}
       <Carousel />
+      
     </>
   );
 }
