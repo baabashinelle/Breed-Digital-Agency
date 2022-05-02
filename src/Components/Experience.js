@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div className="bg-[#211D32] container mx-auto px-28 pt-10">
+    <div className="bg-[#211D32] container mx-auto px-28 pt-14">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div>
           <img
