@@ -36,7 +36,7 @@ export default function Navbar() {
                   <h1 className="font-bold text-white">BR33D</h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="ml-80 flex space-x-4">
+                  <div className="ml-80 md:ml-[8rem] flex space-x-4">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
