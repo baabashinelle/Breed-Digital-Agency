@@ -1,3 +1,6 @@
 .carousel .thumbs-wrapper{
     display: none;
 }
+.carousel.carousel-slider .control-arrow:hover {
+    background: transparent;
+}

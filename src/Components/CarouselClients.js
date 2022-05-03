@@ -28,7 +28,9 @@ function CarouselClients() {
               continue to work with them for the long term.
             </p>
             <h2 className="text-white text-2xl pt-4">Jassir Jones</h2>
-            <p className="text-[#696984]">Chief Technology Officer, Google</p>
+            <p className="text-[#696984] pb-10">
+              Chief Technology Officer, Google
+            </p>
           </div>
         </div>
         <div className="grid lg:grid-cols-2 gap-10">
@@ -51,7 +53,9 @@ function CarouselClients() {
               continue to work with them for the long term.
             </p>
             <h2 className="text-white text-2xl pt-4">Jassir Jones</h2>
-            <p className="text-[#696984]">Chief Technology Officer, Google</p>
+            <p className="text-[#696984] pb-10">
+              Chief Technology Officer, Google
+            </p>
           </div>
         </div>
         <div className="grid lg:grid-cols-2 gap-10">
@@ -74,7 +78,9 @@ function CarouselClients() {
               continue to work with them for the long term.
             </p>
             <h2 className="text-white text-2xl pt-4">Jassir Jones</h2>
-            <p className="text-[#696984]">Chief Technology Officer, Google</p>
+            <p className="text-[#696984] pb-10">
+              Chief Technology Officer, Google
+            </p>
           </div>
         </div>
       </Carousel>
