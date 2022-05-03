@@ -4,14 +4,14 @@ import Carousel from './CarouselDemo';
 function Projects() {
   return (
     <>
-      <div className="bg-[#231E3D] pt-14 container mx-auto px-28">
+      <div className="bg-[#231E3D] pt-14 container mx-auto lg:px-28 px-10 pb-10">
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[51rem]">
           <div>
             <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
             <h1 className="font-semibold text-white text-3xl pt-3">
               Featured Projects
             </h1>
-            <p className="text-[#696984] pt-4 w-[400px]">
+            <p className="text-[#696984] pt-4 lg:w-[400px] pb-5">
               Trusted by 5000+ companies worldwide.
             </p>
           </div>
