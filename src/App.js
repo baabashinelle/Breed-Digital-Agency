@@ -6,6 +6,9 @@ import Projects from './Components/Projects';
 import Clients from './Components/Clients';
 import Blog from './Components/Blog';
 import './app.css'
+import Preloader from './Components/Preloader';
+
+// import { Sugar } from "react-preloaders";
 
 
 function App() {
@@ -14,10 +17,12 @@ function App() {
       <Header />
       <Companies />
       <Services />
-      <Experience/>
-      <Projects/>
-      <Clients/>
-      <Blog/>
+      <Experience />
+      <Projects />
+      <Clients />
+      <Blog />
+      <Preloader/>
+      {/* <Sugar/> */}
     </div>
   );
 }
