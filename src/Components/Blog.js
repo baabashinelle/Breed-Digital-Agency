@@ -8,7 +8,7 @@ function Blog() {
         Trusted by 5000+ companies worldwide.
       </p>
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-4">
-        <div className='lg:pt-7'>
+        <div className='lg:pt-7 xl:pt-0'>
           <img src="https://zesty-cajeta-af510d.netlify.app/Rectangle-32.svg" />
           <p className="text-white">Careers</p>
           <h3 className="text-white font-semibold">
