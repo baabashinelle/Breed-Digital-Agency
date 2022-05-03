@@ -2,11 +2,11 @@ import React from 'react'
 
 function Companies() {
   return (
-    <div className="h-[200px] from-[#1E1732] to-[#211935] bg-gradient-to-r container mx-auto px-28">
-      <p className="text-[#696984] font-semibold text-center pt-12">
+    <div className="lg:h-[200px] from-[#1E1732] to-[#211935] bg-gradient-to-r container mx-auto lg:px-28 px-10 pb-10">
+      <p className="text-[#696984] font-semibold text-center lg:pt-12 pt-6">
         Trusted by 5000+ Companies Worldwide
       </p>
-      <div className="flex justify-evenly pt-10">
+      <div className="lg:flex justify-evenly pt-10 grid grid-cols-2 gap-10">
         <img
           src="https://zesty-cajeta-af510d.netlify.app/Vector.svg"
           alt="Netflix"

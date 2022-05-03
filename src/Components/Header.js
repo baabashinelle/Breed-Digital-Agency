@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 function Header() {
   return (
-    <div className="from-[#2B263F] to-[#231E3D] bg-gradient-to-b w-full container mx-auto px-10 lg:px-28 h-screen overflow-hidden">
+    <div className="from-[#2B263F] to-[#231E3D] bg-gradient-to-b w-full container mx-auto px-10 lg:px-28 lg:h-screen overflow-hidden">
       <Navbar />
       <div className="lg:flex lg:pt-8 ">
         <div className="w-[800px] container mx-auto pt-24">
@@ -21,7 +21,7 @@ function Header() {
                 Work with us
               </button>
             </div>
-            <p className="w-[50%] text-[14px] text-gray-400 lg:leading-6 lg:pl-5 pt-4">
+            <p className="w-[50%] text-[14px] text-gray-400 lg:leading-6 lg:pl-5 pt-4 pb-4">
               Breed is a digital studio that offers several services such as
               UI/UX design to developers, we will provide the best service for
               those of you who use our services.
