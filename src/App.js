@@ -14,6 +14,7 @@ import Preloader from './Components/Preloader';
 function App() {
   return (
     <div className="App">
+      <Preloader />
       <Header />
       <Companies />
       <Services />
@@ -21,7 +22,6 @@ function App() {
       <Projects />
       <Clients />
       <Blog />
-      <Preloader/>
       {/* <Sugar/> */}
     </div>
   );

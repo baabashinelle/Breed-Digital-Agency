@@ -9,6 +9,7 @@ function Preloader() {
     useEffect(() => {
       setIsLoader(true);
       window.addEventListener("load", setLoaderHandle);
+      setLoaderHandle();
       return () => {
         window.removeEventListener("load", setLoaderHandle);
       };
