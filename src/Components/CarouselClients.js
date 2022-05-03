@@ -14,7 +14,7 @@ function CarouselClients() {
             <div className="text-transparent bg-clip-text bg-gradient-to-b from-[#6664F1] to-[#C94AF0] text-9xl">
               "
             </div>
-            <h1 className="text-white lg:text-3xl">
+            <h1 className="text-white lg:text-3xl text-2xl">
               Dream house isn't dream anymore
             </h1>
             <p className="pt-4 text-[#ccc]">
@@ -37,7 +37,7 @@ function CarouselClients() {
             <div className="text-transparent bg-clip-text bg-gradient-to-b from-[#6664F1] to-[#C94AF0] text-9xl">
               "
             </div>
-            <h1 className="text-white lg:text-3xl">
+            <h1 className="text-white lg:text-3xl text-2xl">
               Dream house isn't dream anymore
             </h1>
             <p className="pt-4 text-[#ccc]">
@@ -60,7 +60,7 @@ function CarouselClients() {
             <div className="text-transparent bg-clip-text bg-gradient-to-b from-[#6664F1] to-[#C94AF0] text-9xl">
               "
             </div>
-            <h1 className="text-white lg:text-3xl">
+            <h1 className="text-white lg:text-3xl text-2xl">
               Dream house isn't dream anymore
             </h1>
             <p className="pt-4 text-[#ccc]">
