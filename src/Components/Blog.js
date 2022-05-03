@@ -8,9 +8,11 @@ function Blog() {
         Trusted by 5000+ companies worldwide.
       </p>
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-4">
-        <div className='lg:pt-7 xl:pt-0'>
+        <div className="lg:pt-7 xl:pt-0">
           <img src="https://zesty-cajeta-af510d.netlify.app/Rectangle-32.svg" />
-          <p className="text-white">Careers</p>
+          <p className="text-white pt-4 pb-7">
+            <span className="px-6 py-2 bg-[#342F49] rounded-full font-thin">Careers</span>
+          </p>
           <h3 className="text-white font-semibold">
             Class adds $30 million to its balance sheet for a Zoom-friendly
             edtech solution

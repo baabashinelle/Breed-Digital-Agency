@@ -7,8 +7,8 @@ import Clients from './Components/Clients';
 import Blog from './Components/Blog';
 import './app.css'
 import Preloader from './Components/Preloader';
+import Footer from './Components/Footer';
 
-// import { Sugar } from "react-preloaders";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <Projects />
       <Clients />
       <Blog />
-      {/* <Sugar/> */}
+      <Footer/>
     </div>
   );
 }

@@ -59,7 +59,7 @@ function CarouselClients() {
           </div>
         </div>
         <div className="grid lg:grid-cols-2 gap-10">
-          <img src="https://zesty-cajeta-af510d.netlify.app/image-33.svg" />
+          <img src="https://zesty-cajeta-af510d.netlify.app/image-33.svg"/>
           <div className="text-left">
             <div className="text-transparent bg-clip-text bg-gradient-to-b from-[#6664F1] to-[#C94AF0] text-9xl">
               "
