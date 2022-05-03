@@ -5,7 +5,7 @@ function Projects() {
   return (
     <>
       <div className="bg-[#231E3D] pt-14 container mx-auto lg:px-28 px-10 pb-10">
-        <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[51rem]">
+        <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[51rem] lg:gap-[31rem]">
           <div>
             <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
             <h1 className="font-semibold text-white text-3xl pt-3">
@@ -26,7 +26,6 @@ function Projects() {
       </div>
       {/*Carousel*/}
       <Carousel />
-      
     </>
   );
 }
