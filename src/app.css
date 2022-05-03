@@ -4,3 +4,6 @@
 .carousel.carousel-slider .control-arrow:hover {
     background: transparent;
 }
+.contact-btn{
+    display: none;
+}

@@ -7,7 +7,7 @@ function Header() {
       <Navbar />
       <div className="lg:flex lg:pt-8 ">
         <div className="lg:w-[800px] container mx-auto lg:pt-24 pt-20">
-          <h1 className="font-bold lg:text-[4.2rem] text-3xl lg:w-[79%] text-white lg:leading-[5rem]">
+          <h1 className="font-bold lg:text-[4.2rem] md:text-[3.2rem] text-3xl lg:w-[79%] text-white lg:leading-[5rem] md:leading-[4rem]">
             The power of now, the{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0]">
               {" "}
@@ -21,7 +21,7 @@ function Header() {
                 Work with us
               </button>
             </div>
-            <p className="lg:w-[50%] text-[14px] text-gray-400 lg:leading-6 lg:pl-5 pt-4 pb-4">
+            <p className="lg:w-[50%] md:w-[80%] text-[14px] text-gray-400 lg:leading-6 lg:pl-5 lg:pt-0 pt-4 pb-4">
               Breed is a digital studio that offers several services such as
               UI/UX design to developers, we will provide the best service for
               those of you who use our services.

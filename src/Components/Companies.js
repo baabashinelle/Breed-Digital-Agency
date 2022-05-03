@@ -6,7 +6,7 @@ function Companies() {
       <p className="text-[#696984] font-semibold text-center lg:pt-12 pt-6">
         Trusted by 5000+ Companies Worldwide
       </p>
-      <div className="lg:flex justify-evenly pt-10 grid grid-cols-2 gap-10">
+      <div className="lg:flex justify-evenly pt-10 grid grid-cols-2 md:grid-cols-3 gap-10">
         <img
           src="https://zesty-cajeta-af510d.netlify.app/Vector.svg"
           alt="Netflix"

@@ -43,9 +43,9 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0]"
+                            ? "text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0] md:text-xs lg:text-base"
                             : "text-gray-300",
-                          "px-3 py-2 rounded-md text-sm font-medium"
+                          "px-3 py-2 rounded-md text-sm font-medium md:text-xs lg:text-base"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -55,7 +55,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 hidden">
+              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 contact-btn">
                 <button className="text-white border rounded px-7 py-2">
                   Contact Us
                 </button>
