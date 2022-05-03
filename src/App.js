@@ -5,6 +5,7 @@ import Experience from './Components/Experience';
 import Projects from './Components/Projects';
 import Clients from './Components/Clients';
 import Blog from './Components/Blog';
+import './app.css'
 
 
 function App() {
