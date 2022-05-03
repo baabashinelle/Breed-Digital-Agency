@@ -2,7 +2,7 @@ import React from 'react'
 
 function Blog() {
   return (
-    <div className="bg-[#231E3D] pt-14 container mx-auto px-28">
+    <div className="bg-[#231E3D] pt-14 container mx-auto lg:px-28 px-10 pb-10">
       <h1 className="text-center text-white text-3xl">Latest From Our Blog</h1>
       <p className="text-[#696984] pt-3 text-center pb-14">
         Trusted by 5000+ companies worldwide.
@@ -23,9 +23,9 @@ function Blog() {
         </div>
 
         <div>
-          <div className="flex">
+          <div className="lg:flex">
             <img src="https://zesty-cajeta-af510d.netlify.app/4.svg" />
-            <div className="pl-5">
+            <div className="lg:pl-5 pt-4">
               <h4 className="text-white font-semibold">
                 Class Technologies Inc. Closes $30 Million Series A Financing to
                 Meet High Demand
@@ -36,9 +36,9 @@ function Blog() {
             </div>
           </div>
 
-          <div className="flex pt-4">
+          <div className="lg:flex pt-4">
             <img src="https://zesty-cajeta-af510d.netlify.app/5.svg" />
-            <div className="pl-5">
+            <div className="lg:pl-5 pt-4">
               <h4 className="text-white font-semibold">
                 Zoom’s earliest investors are betting millions on a better Zoom
                 for schools
@@ -50,9 +50,9 @@ function Blog() {
             </div>
           </div>
 
-          <div className="flex pt-4">
+          <div className="lg:flex pt-4">
             <img src="https://zesty-cajeta-af510d.netlify.app/6.svg" />
-            <div className="pl-5">
+            <div className="lg:pl-5 pt-4">
               <h4 className="text-white font-semibold">
                 Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom
                 Classrooms
