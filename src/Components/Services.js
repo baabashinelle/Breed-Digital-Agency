@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <div className="bg-[#231E3D] pt-14 container mx-auto px-28">
+    <div className="bg-[#231E3D] pt-14 container mx-auto lg:px-28 px-10 pb-10">
       <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
       <h1 className="text-white text-4xl font-semibold pt-3">Our Services</h1>
       <p className="text-[#696984] font-semibold pt-4">
