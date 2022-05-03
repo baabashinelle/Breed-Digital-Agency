@@ -18,8 +18,21 @@
     width: 100%;
     height: 100vh;
 }
+.font-link {
+  font-family: 'Manrope', sans-serif;
+}
 @media screen and (max-width: 768px) {
     .contact-btn{
     display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    :placeholder-shown{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:424px) and (max-width:500px) {
+    .submit-btn{
+        top: 7%;
     }
 }

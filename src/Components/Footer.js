@@ -17,7 +17,7 @@ function Footer() {
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat.
           </p>
-          <div className="grid grid-cols-2 pt-9">
+          <div className="grid lg:grid-cols-1 xl:grid-cols-2 grid-cols-1 md:grid-cols-1 pt-9">
             <div className="flex gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="flex gap-2 text-white">
+            <div className="flex gap-2 text-white md:pt-4 pt-4 xl:pt-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 w-8 text-white bg-[#7A7893] rounded-full leading-4 p-2"
@@ -64,17 +64,19 @@ function Footer() {
 
         <div>
           <div>
-            <h2 className="text-white font-semibold lg:text-xl">Newsletter</h2>
+            <h2 className="text-white font-semibold lg:text-xl md:pt-4 pt-4">
+              Newsletter
+            </h2>
             <p className="text-[#7A7893] xl:w-[555px] pt-4 pb-5">
               Be the first one to know about discounts, offers and events.
               Unsubscribe whenever you like.
             </p>
-            <div className='relative'>
+            <div className="relative">
               <input
                 placeholder="Enter your email"
-                className="rounded-full px-4 py-3 bg-[#342F49] w-full"
+                className="rounded-full px-4 py-3 bg-[#342F49] w-full input-p"
               ></input>
-              <button className="text-white px-7 py-3 rounded-full bg-[#6366F1] absolute right-2 ">
+              <button className="text-white md:px-7 md:py-3 px-3 py-3 text-xs md:text-base rounded-full bg-[#6366F1] absolute right-2 submit-btn">
                 Submit
               </button>
             </div>
@@ -91,15 +93,15 @@ function Footer() {
       </div>
 
       {/* Lower footer */}
-      <div className="grid grid-cols-2 pt-16">
-        <div className="flex justify-between text-[#7A7893]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 pt-16 md:grid-cols-1">
+        <div className="md:flex justify-between text-[#7A7893] text-xs md:text-base flex-col lg:flex-row">
           <p>About Us</p>
           <p>Contact</p>
           <p>Privacy Policy</p>
           <p>Sitemap</p>
           <p>Terms of Use</p>
         </div>
-        <div className="text-[#7A7893] justify-end flex">
+        <div className="text-[#7A7893] lg:justify-end justify-start pt-4 flex md:justify-start md:pt-4 text-xs md:text-base lg:pt-0">
           © 2000-2021, All Rights Reserved
         </div>
       </div>

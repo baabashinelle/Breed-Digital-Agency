@@ -56,7 +56,7 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 contact-btn">
-                <button className="text-white border rounded px-7 py-2">
+                <button className="text-white border rounded px-7 py-2 md:px-5">
                   Contact Us
                 </button>
               </div>

@@ -8,10 +8,12 @@ function Blog() {
         Trusted by 5000+ companies worldwide.
       </p>
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-4">
-        <div className="lg:pt-7 xl:pt-0">
+        <div className="lg:pt-0 xl:pt-0">
           <img src="https://zesty-cajeta-af510d.netlify.app/Rectangle-32.svg" />
           <p className="text-white pt-4 pb-7">
-            <span className="px-6 py-2 bg-[#342F49] rounded-full font-thin">Careers</span>
+            <span className="px-6 py-2 bg-[#342F49] rounded-full font-thin">
+              Careers
+            </span>
           </p>
           <h3 className="text-white font-semibold">
             Class adds $30 million to its balance sheet for a Zoom-friendly
@@ -21,11 +23,13 @@ function Blog() {
             Class, launched less than a year ago by Blackboard co-founder
             Michael Chasen, integrates exclusively...
           </p>
-          <p className="pt-4 text-[#ccc] text-semibold">Read more</p>
+          <p className="pt-4 text-[#ccc] text-semibold md:pb-4 pb-4">
+            Read more
+          </p>
         </div>
 
         <div>
-          <div className="lg:flex">
+          <div className="lg:flex md:flex-col md:items-center xl:flex-row">
             <img src="https://zesty-cajeta-af510d.netlify.app/4.svg" />
             <div className="lg:pl-5 pt-4">
               <h4 className="text-white font-semibold">
@@ -38,7 +42,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="lg:flex pt-4">
+          <div className="lg:flex pt-4 md:flex-col md:items-center xl:flex-row">
             <img src="https://zesty-cajeta-af510d.netlify.app/5.svg" />
             <div className="lg:pl-5 pt-4">
               <h4 className="text-white font-semibold">
@@ -52,7 +56,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="lg:flex pt-4">
+          <div className="lg:flex pt-4 md:flex-col md:items-center xl:flex-row">
             <img src="https://zesty-cajeta-af510d.netlify.app/6.svg" />
             <div className="lg:pl-5 pt-4">
               <h4 className="text-white font-semibold">
