@@ -2,7 +2,7 @@ import React from 'react'
 
 function Blog() {
   return (
-    <div className="bg-[#231E3D] pt-14 container mx-auto lg:px-28 px-10 pb-10">
+    <div className="bg-[#231E3D] pt-14   lg:px-28 px-10 pb-10">
       <h1 className="text-center text-white text-3xl">Latest From Our Blog</h1>
       <p className="text-[#696984] pt-3 text-center pb-14">
         Trusted by 5000+ companies worldwide.

@@ -21,6 +21,7 @@
 .font-link {
   font-family: 'Manrope', sans-serif;
 }
+
 @media screen and (max-width: 768px) {
     .contact-btn{
     display: none;

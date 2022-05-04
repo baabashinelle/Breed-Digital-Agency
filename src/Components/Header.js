@@ -3,10 +3,10 @@ import Navbar from './Navbar'
 
 function Header() {
   return (
-    <div className="from-[#2B263F] to-[#231E3D] bg-gradient-to-b w-full container mx-auto px-10 2xl:px-28 lg:h-screen overflow-hidden">
+    <div className="from-[#2B263F] to-[#231E3D] bg-gradient-to-b w-full  px-10 lg:px-28 lg:h-screen overflow-hidden">
       <Navbar />
       <div className="lg:flex lg:pt-8 ">
-        <div className="lg:w-[800px] container mx-auto xl:pt-24 lg:pt-10 pt-20">
+        <div className="lg:w-[800px] container  xl:pt-24 lg:pt-10 pt-20">
           <h1 className="font-[1000] xl:text-[4.2rem] lg:text-[3rem] md:text-[3.2rem] text-3xl lg:w-[79%] text-white lg:leading-[5rem] md:leading-[4rem]">
             The power of now, the{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0]">

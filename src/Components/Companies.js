@@ -2,7 +2,7 @@ import React from 'react'
 
 function Companies() {
   return (
-    <div className="lg:h-[200px] from-[#1E1732] to-[#211935] bg-gradient-to-r container mx-auto lg:px-28 px-10 pb-10">
+    <div className="lg:h-[200px] from-[#1E1732] to-[#211935] bg-gradient-to-r   lg:px-28 px-10 pb-10">
       <p className="text-[#696984] font-semibold text-center lg:pt-12 pt-6">
         Trusted by 5000+ Companies Worldwide
       </p>
