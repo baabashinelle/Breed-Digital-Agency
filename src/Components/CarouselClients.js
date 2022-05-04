@@ -6,7 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 
 function CarouselClients() {
   return (
-    <div className="w-full pt-10 bg-[#231E3D]">
+    <div className="pt-10 bg-[#231E3D]">
       <Carousel>
         <div className="grid lg:grid-cols-2 gap-10">
           <img src="https://zesty-cajeta-af510d.netlify.app/image-33.svg" />

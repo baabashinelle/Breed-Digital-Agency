@@ -23,9 +23,9 @@ function Projects() {
             </button>
           </div>
         </div>
+        <Carousel />
       </div>
       {/*Carousel*/}
-      <Carousel />
     </>
   );
 }
