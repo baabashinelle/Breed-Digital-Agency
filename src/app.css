@@ -21,7 +21,13 @@
 .font-link {
   font-family: 'Manrope', sans-serif;
 }
-
+.c-btn span:first-child{
+  transform: translateX(-101%);
+  transition: transform .3s ease-in
+}
+.c-btn:hover span{
+  transform: translateX(0)
+}
 @media screen and (max-width: 768px) {
     .contact-btn{
     display: none;

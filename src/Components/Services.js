@@ -10,7 +10,7 @@ function Services() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10 lg:pb-20">
-        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold">
+        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold cursor-pointer relative group">
           UI/UX Design
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ function Services() {
             />
           </svg>
         </div>
-        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold">
+        <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
           Digital Strategy
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ function Services() {
             />
           </svg>
         </div>
-        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold">
+        <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
           UI/UX Design
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ function Services() {
             />
           </svg>
         </div>
-        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold">
+        <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
           App Development
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@ function Services() {
             />
           </svg>
         </div>
-        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold">
+        <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
           Product Design
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ function Services() {
             />
           </svg>
         </div>
-        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold">
+        <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
           Social Media
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +112,7 @@ function Services() {
             />
           </svg>
         </div>
-        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold">
+        <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
           Brand Identity
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ function Services() {
             />
           </svg>
         </div>
-        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold">
+        <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
           SEO Optimization
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ function Services() {
             />
           </svg>
         </div>
-        <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold">
+        <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
           Media Planing
           <svg
             xmlns="http://www.w3.org/2000/svg"
