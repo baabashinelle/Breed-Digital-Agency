@@ -10,26 +10,32 @@ function Companies() {
         <img
           src="https://zesty-cajeta-af510d.netlify.app/Vector.svg"
           alt="Netflix"
+          className="duration-500 hover:scale-125"
         />
         <img
           src="https://zesty-cajeta-af510d.netlify.app/google-2015.svg"
           alt="Google"
+          className="duration-500 hover:scale-125"
         />
         <img
           src="https://zesty-cajeta-af510d.netlify.app/amazon.svg"
           alt="Amazon"
+          className="duration-500 hover:scale-125"
         />
         <img
           src="https://zesty-cajeta-af510d.netlify.app/airbnb.svg"
           alt="Air BNB"
+          className="duration-500 hover:scale-125"
         />
         <img
           src="https://zesty-cajeta-af510d.netlify.app/grab-logo.svg"
           alt="Grab"
+          className="duration-500 hover:scale-125"
         />
         <img
           src="https://zesty-cajeta-af510d.netlify.app/facebook.svg"
           alt="Facebook"
+          className="duration-500 hover:scale-125"
         />
       </div>
     </div>

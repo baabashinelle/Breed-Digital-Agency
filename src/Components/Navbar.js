@@ -1,6 +1,7 @@
-import { Fragment } from "react";
+import React from "react";
 import { Disclosure } from "@headlessui/react";
-import {  MenuIcon, XIcon } from "@heroicons/react/outline";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
+// import { HashLink } from "react-router-hash-link";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
@@ -56,7 +57,7 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 contact-btn">
-                <button className="text-white border rounded px-7 py-2 md:px-5">
+                <button className="text-white border rounded px-7 py-2 md:px-5 hover:bg-white hover:text-black">
                   Contact Us
                 </button>
               </div>
