@@ -16,14 +16,14 @@ function App() {
   return (
     <div className="App font-link">
       <Preloader />
-      <Header />
-      <Companies />
-      <Services />
+      <Header id="home" />
+      <Companies id="about"/>
+      <Services id="services" />
       <Experience />
-      <Projects />
+      <Projects id="projects" />
       <Clients />
       <Blog />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
