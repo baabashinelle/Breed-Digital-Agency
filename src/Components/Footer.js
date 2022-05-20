@@ -78,7 +78,11 @@ function Footer() {
                   placeholder="Enter your email"
                   className="rounded-full px-4 py-3 bg-[#342F49] w-full input-p"
                 ></input>
-                <button className="text-white md:px-7 md:py-3 px-3 py-3 text-xs md:text-base rounded-full bg-[#6366F1] absolute right-2 submit-btn">
+                <button className="text-white md:px-7 md:py-3 px-3 py-3 text-xs md:text-base rounded-full bg-[#6366F1] absolute right-2 submit-btn hover:text-white c-btn tracking-wider overflow-hidden">
+                  <span class="absolute inset-0 bg-white opacity-10"></span>
+                  <span class="absolute inset-0 flex justify-center items-center">
+                    Submit
+                  </span>
                   Submit
                 </button>
               </div>
@@ -119,10 +123,10 @@ function Footer() {
               </div>
               <div className="relative overflow-hidden block footer-div cursor-pointer">
                 <span className="block">
-                  <FaWhatsapp className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" /> 
+                  <FaWhatsapp className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
                 </span>
                 <span>
-                  <FaWhatsapp className="text-white bg-[#307f63] rounded-full leading-4 p-2 h-8 w-8" /> 
+                  <FaWhatsapp className="text-white bg-[#307f63] rounded-full leading-4 p-2 h-8 w-8" />
                 </span>
               </div>
             </div>

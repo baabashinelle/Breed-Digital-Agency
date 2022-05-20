@@ -13,7 +13,12 @@ function Blog() {
         </p>
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-4">
           <div className="lg:pt-0 xl:pt-0">
-            <img src="https://zesty-cajeta-af510d.netlify.app/Rectangle-32.svg" />
+            <div className='overflow-hidden w-4/5 rounded-2xl'>
+              <img
+                src="https://zesty-cajeta-af510d.netlify.app/Rectangle-32.svg"
+                className="duration-500 hover:scale-125"
+              />
+            </div>
             <p className="text-white pt-4 pb-7">
               <span className="px-6 py-2 bg-[#342F49] rounded-full font-thin">
                 Careers
@@ -34,7 +39,7 @@ function Blog() {
 
           <div>
             <div className="lg:flex md:flex-col md:items-center xl:flex-row">
-              <img src="https://zesty-cajeta-af510d.netlify.app/4.svg" />
+              <img src="https://zesty-cajeta-af510d.netlify.app/4.svg"  />
               <div className="lg:pl-5 pt-4">
                 <h4 className="text-white font-semibold">
                   Class Technologies Inc. Closes $30 Million Series A Financing
