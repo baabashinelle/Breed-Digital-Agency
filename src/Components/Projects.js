@@ -1,11 +1,13 @@
 import React from 'react'
 import Carousel from './CarouselDemo';
+import Fade from "react-reveal/Fade";
 
 function Projects() {
   return (
     <>
       <div className="bg-[#231E3D] pt-14   lg:px-28 px-10 pb-10">
         <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[51rem] lg:gap-[31rem]">
+          <Fade bottom cascade>
           <div>
             <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
             <h1 className="font-semibold text-white text-2xl pt-3">
@@ -22,6 +24,7 @@ function Projects() {
               </span>
             </button>
           </div>
+          </Fade>
         </div>
       </div>
       <Carousel />

@@ -15,7 +15,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App font-link">
-      <Preloader />
+      {/* <Preloader /> */}
       <Header id="home" />
       <Companies id="about"/>
       <Services id="services" />
