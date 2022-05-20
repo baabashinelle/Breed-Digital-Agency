@@ -57,8 +57,8 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 contact-btn">
-                <button className="text-white border rounded px-7 py-2 md:px-5 hover:text-black c-btn relative tracking-wider overflow-hidden">
-                  <span class="absolute inset-0 bg-white"></span>
+                <button className="text-white border rounded px-7 py-2 md:px-5 hover:text-white c-btn relative tracking-wider overflow-hidden">
+                  <span class="absolute inset-0 bg-white opacity-10"></span>
                   <span class="absolute inset-0 flex justify-center items-center">
                     Contact Us
                   </span>

@@ -17,7 +17,11 @@ function Header() {
           </h1>
           <div className="lg:flex justify-start mt-7">
             <div>
-              <button className="rounded px-7 py-3 bg-[#6366F1] text-white">
+              <button className="rounded px-7 py-3 bg-[#6366F1] border-[#6366F1] border-2 text-white relative group hover:text-white overflow-hidden c-btn tracking-wider">
+                <span class="absolute inset-0 bg-[#ffff] opacity-10"></span>
+                <span class="absolute inset-0 flex justify-center items-center">
+                  Work with us
+                </span>
                 Work with us
               </button>
             </div>

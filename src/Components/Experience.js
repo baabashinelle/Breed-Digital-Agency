@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div className="bg-[#211D32]   lg:px-28 pt-14 px-10 pb-10">
+    <div className="bg-[#211D32] lg:px-28 pt-14 px-10 pb-10">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div>
           <img
@@ -19,7 +19,11 @@ function Experience() {
             Trusted by 5000+ companies worldwide. Trusted by 5000+ companies
             worldwide
           </p>
-          <button className="rounded px-7 py-3 bg-[#6366F1] text-white">
+          <button className="rounded px-7 py-3 bg-[#6366F1] text-white border-[#6366F1] border-2 relative group hover:text-white overflow-hidden c-btn tracking-wider">
+            <span class="absolute inset-0 bg-white opacity-10"></span>
+            <span class="absolute inset-0 flex justify-center items-center">
+              Learn More
+            </span>
             Learn More
           </button>
         </div>
