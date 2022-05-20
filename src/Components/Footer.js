@@ -84,12 +84,47 @@ function Footer() {
               </div>
             </div>
 
-            <div className="flex justify-end pt-5 gap-4">
-              <GrFacebookOption className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
-              <FiYoutube className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
-              <AiOutlineSkype className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
-              <FiFigma className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
-              <FaWhatsapp className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
+            <div className="flex justify-end pt-5 gap-4 socials">
+              <div className="relative overflow-hidden block footer-div cursor-pointer">
+                <span className="block">
+                  <GrFacebookOption className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
+                </span>
+                <span>
+                  <GrFacebookOption className="text-white bg-[#6366F1] rounded-full leading-4 p-2 h-8 w-8" />
+                </span>
+              </div>
+              <div className="relative overflow-hidden block footer-div cursor-pointer">
+                <span className="block">
+                  <FiYoutube className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
+                </span>
+                <span>
+                  <FiYoutube className="text-white bg-[#c63232] rounded-full leading-4 p-2 h-8 w-8" />
+                </span>
+              </div>
+              <div className="relative overflow-hidden block footer-div cursor-pointer">
+                <span className="block">
+                  <AiOutlineSkype className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
+                </span>
+                <span>
+                  <AiOutlineSkype className="text-white bg-[#5189f1] rounded-full leading-4 p-2 h-8 w-8" />
+                </span>
+              </div>
+              <div className="relative overflow-hidden block footer-div cursor-pointer">
+                <span className="block">
+                  <FiFigma className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
+                </span>
+                <span>
+                  <FiFigma className="text-white bg-[#5b337e] rounded-full leading-4 p-2 h-8 w-8" />
+                </span>
+              </div>
+              <div className="relative overflow-hidden block footer-div cursor-pointer">
+                <span className="block">
+                  <FaWhatsapp className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" /> 
+                </span>
+                <span>
+                  <FaWhatsapp className="text-white bg-[#307f63] rounded-full leading-4 p-2 h-8 w-8" /> 
+                </span>
+              </div>
             </div>
           </div>
         </div>

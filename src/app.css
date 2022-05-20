@@ -28,6 +28,28 @@
 .c-btn:hover span{
   transform: translateX(0)
 }
+.socials .footer-div span:last-child{
+    position: absolute;
+    top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-100%);
+}
+.socials span {
+  transition: transform 0.2s ease-out;
+}
+ 
+.socials .footer-div:hover span:first-child {
+  transform: translateY(100%);
+}
+ 
+.socials .footer-div:hover span:last-child {
+  transform: none;
+}
 @media screen and (max-width: 768px) {
     .contact-btn{
     display: none;
