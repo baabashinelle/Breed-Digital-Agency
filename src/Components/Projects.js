@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 function Projects() {
   return (
     <>
-      <div className="bg-[#231E3D] pt-14   lg:px-28 px-10 pb-10">
+      <div className="bg-[#231E3D] pt-14   lg:px-28 px-10 pb-10" id="projects">
         <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[51rem] lg:gap-[31rem]">
           <Fade bottom cascade>
           <div>
@@ -18,8 +18,8 @@ function Projects() {
             </p>
           </div>
           <div>
-            <button class="relative inline-flex items-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 group bg-gradient-to-r from-[#7361F2] to-[#BD4FF1] group-hover:from-[#7361F2] group-hover:to-[#BD4FF1] hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-[#231E3D] group-hover:bg-opacity-0">
+            <button className="relative inline-flex items-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 group bg-gradient-to-r from-[#7361F2] to-[#BD4FF1] group-hover:from-[#7361F2] group-hover:to-[#BD4FF1] hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-[#231E3D] group-hover:bg-opacity-0">
                 View All
               </span>
             </button>

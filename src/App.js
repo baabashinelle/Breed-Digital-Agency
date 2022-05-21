@@ -12,18 +12,19 @@ import Footer from './Components/Footer';
 
 
 
+
 function App() {
   return (
     <div className="App font-link">
-      {/* <Preloader /> */}
-      <Header id="home" />
-      <Companies id="about"/>
-      <Services id="services" />
-      <Experience />
-      <Projects id="projects" />
-      <Clients />
-      <Blog />
-      <Footer />
+      <Preloader />
+        <Header id="home" />
+        <Companies id="about" />
+        <Services id="services" />
+        <Experience />
+        <Projects id="projects" />
+        <Clients />
+        <Blog />
+        <Footer />
     </div>
   );
 }

@@ -1,13 +1,14 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-// import { HashLink } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
+
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Projects", href: "#", current: false },
-  { name: "Our Services", href: "#", current: false },
-  { name: "About Us", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "Projects", href: "#projects", current: false },
+  { name: "Our Services", href: "#services", current: false },
+  { name: "About Us", href: "#about", current: false },
 ];
 
 function classNames(...classes) {
@@ -16,7 +17,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-transparent">
+    <Disclosure as="nav" className="bg-transparent sticky top-0">
       {({ open }) => (
         <>
           <div className="max-w-7xl">
@@ -39,27 +40,28 @@ export default function Navbar() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0] md:text-xs lg:text-base"
-                            : "text-gray-300",
-                          "px-3 py-2 rounded-md text-sm font-medium md:text-xs lg:text-base"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
+                        <HashLink
+                          smooth
+                          key={item.name}
+                          to={item.href}
+                          className={classNames(
+                            item.current
+                              ? "text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0] md:text-xs lg:text-base"
+                              : "text-gray-300",
+                            "px-3 py-2 rounded-md text-sm font-medium md:text-xs lg:text-base"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.name}
+                        </HashLink>
                     ))}
                   </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 contact-btn">
                 <button className="text-white border rounded px-7 py-2 md:px-5 hover:text-white c-btn relative tracking-wider overflow-hidden">
-                  <span class="absolute inset-0 bg-white opacity-10"></span>
-                  <span class="absolute inset-0 flex justify-center items-center">
+                  <span className="absolute inset-0 bg-white opacity-10"></span>
+                  <span className="absolute inset-0 flex justify-center items-center">
                     Contact Us
                   </span>
                   Contact Us

@@ -50,6 +50,16 @@
 .socials .footer-div:hover span:last-child {
   transform: none;
 }
+.boy-illustration{
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: scale(1);
+  transition: transform 225ms ease-out;
+}
+.boy-illustration:hover{
+  transform: scale(1) rotateX(30deg) rotateY(0deg);
+  transition: transform 380ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
 @media screen and (max-width: 768px) {
     .contact-btn{
     display: none;

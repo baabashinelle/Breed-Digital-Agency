@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 function Experience() {
   return (
-    <div className="bg-[#211D32] lg:px-28 pt-14 px-10 pb-10">
+    <div className="bg-[#211D32] lg:px-28 pt-14 px-10 pb-10" id="about">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <Fade bottom cascade>
           <div>
@@ -22,8 +22,8 @@ function Experience() {
               worldwide
             </p>
             <button className="rounded px-7 py-3 bg-[#6366F1] text-white border-[#6366F1] border-2 relative group hover:text-white overflow-hidden c-btn tracking-wider">
-              <span class="absolute inset-0 bg-white opacity-10"></span>
-              <span class="absolute inset-0 flex justify-center items-center">
+              <span className="absolute inset-0 bg-white opacity-10"></span>
+              <span className="absolute inset-0 flex justify-center items-center">
                 Learn More
               </span>
               Learn More

@@ -4,20 +4,16 @@ import { useState, useEffect } from 'react'
 
 
 function Preloader() {
-    const [isLoader, setIsLoader] = useState(false);
+    const [isLoader, setIsLoader] = useState(true);
 
     useEffect(() => {
-      setIsLoader(true);
-      window.addEventListener("load", setLoaderHandle);
-      setLoaderHandle();
       return () => {
-        window.removeEventListener("load", setLoaderHandle);
+        window.addEventListener("load", () => {
+          setIsLoader(false)
+        })
       };
     }, []);
 
-    const setLoaderHandle = () => {
-      const time = setTimeout(() => setIsLoader(false), 1300);
-    };
   return <div>{isLoader && <MyLoader/>}</div>;
 }
 
