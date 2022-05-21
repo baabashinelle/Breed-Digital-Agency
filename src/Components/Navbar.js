@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-transparent sticky top-0">
+    <Disclosure as="nav" className="bg-transparent">
       {({ open }) => (
         <>
           <div className="max-w-7xl">
@@ -40,20 +40,20 @@ export default function Navbar() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4">
                     {navigation.map((item) => (
-                        <HashLink
-                          smooth
-                          key={item.name}
-                          to={item.href}
-                          className={classNames(
-                            item.current
-                              ? "text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0] md:text-xs lg:text-base"
-                              : "text-gray-300",
-                            "px-3 py-2 rounded-md text-sm font-medium md:text-xs lg:text-base"
-                          )}
-                          aria-current={item.current ? "page" : undefined}
-                        >
-                          {item.name}
-                        </HashLink>
+                      <HashLink
+                        smooth
+                        key={item.name}
+                        to={item.href}
+                        className={classNames(
+                          item.current
+                            ? "text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0] md:text-xs lg:text-base"
+                            : "text-gray-300",
+                          "px-3 py-2 rounded-md text-sm font-medium md:text-xs lg:text-base"
+                        )}
+                        aria-current={item.current ? "page" : undefined}
+                      >
+                        {item.name}
+                      </HashLink>
                     ))}
                   </div>
                 </div>
