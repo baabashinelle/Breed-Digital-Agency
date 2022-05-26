@@ -6,7 +6,7 @@ import Projects from './Components/Projects';
 import Clients from './Components/Clients';
 import Blog from './Components/Blog';
 import './app.css'
-import Preloader from './Components/Preloader';
+// import Preloader from './Components/Preloader';
 import Footer from './Components/Footer';
 
 
@@ -16,7 +16,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App font-link">
-      <Preloader />
+      {/* <Preloader /> */}
         <Header id="home" />
         <Companies id="about" />
         <Services id="services" />
