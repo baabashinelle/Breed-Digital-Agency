@@ -6,7 +6,7 @@ import Projects from './Components/Projects';
 import Clients from './Components/Clients';
 import Blog from './Components/Blog';
 import './app.css'
-// import Preloader from './Components/Preloader';
+// `import Preloader from './Components/Preloader';`
 import Footer from './Components/Footer';
 
 

@@ -38,7 +38,7 @@ export default function Navbar() {
                   <h1 className="font-bold text-white">BR33D</h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4">
+                  <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4 ">
                     {navigation.map((item) => (
                       <HashLink
                         smooth
@@ -48,7 +48,7 @@ export default function Navbar() {
                           item.current
                             ? "text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0] md:text-xs lg:text-base"
                             : "text-gray-300",
-                          "px-3 py-2 rounded-md text-sm font-medium md:text-xs lg:text-base"
+                          "px-3 py-2 rounded-md text-sm font-medium md:text-xs lg:text-base "
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
