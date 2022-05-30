@@ -1,4 +1,4 @@
-.carousel .thumbs-wrapper{
+.carousel .thumbs-wrapper, .carousel-status{
     display: none;
 }
 .carousel.carousel-slider .control-arrow:hover {
