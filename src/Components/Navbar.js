@@ -1,8 +1,8 @@
-import React from "react";
-import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { HashLink } from "react-router-hash-link";
+import React, { useState } from "react";
 
+import { Disclosure } from "@headlessui/react";
+import { HashLink } from "react-router-hash-link";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -15,7 +15,18 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navbar({ index, className }) {
+export default function Navbar({ className }) {
+  const [navs, setNavs] = useState(navigation);
+
+  const handleActive = (nav) => {
+    console.log(nav);
+    console.log(navs);
+    let tempNavs = navs;
+    tempNavs.forEach((e) => (e.current = e.name === nav.name));
+    console.log("temp", tempNavs);
+    setNavs(tempNavs);
+    console.log(navs);
+  };
   return (
     <Disclosure as="nav" className={`bg-transparent ${className}`}>
       {({ open }) => (
@@ -39,9 +50,9 @@ export default function Navbar({ index, className }) {
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4">
-                    {navigation.map((item) => (
+                    {navs.map((item) => (
                       <HashLink
-                        onClick={() => item.current = true}
+                        onClick={() => handleActive(item)}
                         smooth
                         key={item.name}
                         to={item.href}
@@ -73,11 +84,12 @@ export default function Navbar({ index, className }) {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 ">
-              {navigation.map((item) => (
+              {navs.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"
                   href={item.href}
+                  onClick={() => handleActive(item)}
                   className={classNames(
                     item.current
                       ? "bg-transparent text-white"
