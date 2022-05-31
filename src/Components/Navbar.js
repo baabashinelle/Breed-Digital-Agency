@@ -15,9 +15,9 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navbar() {
+export default function Navbar({ index, className }) {
   return (
-    <Disclosure as="nav" className="bg-transparent">
+    <Disclosure as="nav" className={`bg-transparent ${className}`}>
       {({ open }) => (
         <>
           <div className="max-w-7xl">
@@ -41,6 +41,7 @@ export default function Navbar() {
                   <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4">
                     {navigation.map((item) => (
                       <HashLink
+                        onClick={() => item.current = true}
                         smooth
                         key={item.name}
                         to={item.href}
