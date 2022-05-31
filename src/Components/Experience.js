@@ -21,8 +21,8 @@ function Experience() {
               Trusted by 5000+ companies worldwide. Trusted by 5000+ companies
               worldwide
             </p>
-            <button className="rounded px-7 py-3 bg-[#6366F1] text-white border-[#6366F1] border-2 relative group hover:text-white overflow-hidden c-btn tracking-wider">
-              <span className="absolute inset-0 bg-white opacity-10"></span>
+            <button className="rounded px-7 py-3 bg-[#6366F1] text-white relative group hover:text-white overflow-hidden c-btn tracking-wider">
+              <span className="absolute inset-0 bg-[#5558ff]"></span>
               <span className="absolute inset-0 flex justify-center items-center">
                 Learn More
               </span>

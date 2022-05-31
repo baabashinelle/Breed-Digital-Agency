@@ -60,7 +60,7 @@ export default function Navbar({ className }) {
                           item.current
                             ? "text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#C94AF0] md:text-xs lg:text-base"
                             : "text-gray-300",
-                          "px-3 py-2 rounded-md text-sm font-medium md:text-xs lg:text-base hover:text-white"
+                          "px-3 py-2 rounded-md text-sm font-medium md:text-xs lg:text-base hover:text-white hover:scale-110 ease-in duration-200"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -72,7 +72,7 @@ export default function Navbar({ className }) {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 contact-btn">
                 <button className="text-white border rounded px-7 py-2 md:px-5 hover:text-white c-btn relative tracking-wider overflow-hidden">
-                  <span className="absolute inset-0 bg-white opacity-10"></span>
+                  <span className="absolute inset-0 bg-[#5558ff]"></span>
                   <span className="absolute inset-0 flex justify-center items-center">
                     Contact Us
                   </span>
