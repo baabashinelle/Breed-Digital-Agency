@@ -7,7 +7,7 @@ function Services() {
       <Fade bottom cascade>
         <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
         <h1 className="text-white text-4xl font-semibold pt-3">Our Services</h1>
-        <p className="text-[#696984] font-semibold pt-4">
+        <p className="text-[#696984] font-semibold pt-4 whitespace-nowrap">
           Trusted by 5000+ Companies Worldwide
         </p>
 
