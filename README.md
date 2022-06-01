@@ -1,6 +1,6 @@
 Breed is a digital agency and here's a landing page for breed. Tech used: React and Tailwind CSS.
 
-![breedbybaaba netlify app_](https://user-images.githubusercontent.com/83133493/166708493-2c5567a0-390c-4997-bdef-3870137fda40.png)
+![breedbybaaba netlify app_ (1)](https://user-images.githubusercontent.com/83133493/171515122-14124ec5-921c-4104-be12-c0a67399bfcb.png)
 
 
 # Getting Started with Create React App
