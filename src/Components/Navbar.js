@@ -19,13 +19,8 @@ export default function Navbar({ className }) {
   const [navs, setNavs] = useState(navigation);
 
   const handleActive = (nav) => {
-    console.log(nav);
-    console.log(navs);
-    let tempNavs = navs;
-    tempNavs.forEach((e) => (e.current = e.name === nav.name));
-    console.log("temp", tempNavs);
-    setNavs(tempNavs);
-    console.log(navs);
+    navs.forEach((e) => (e.current = e.name === nav.name));
+    setNavs([...navs]);
   };
   return (
     <Disclosure as="nav" className={`bg-transparent ${className}`}>
