@@ -1,36 +1,37 @@
-.carousel .thumbs-wrapper, .carousel-status{
-    display: none;
+.carousel .thumbs-wrapper,
+.carousel-status {
+  display: none;
 }
 .carousel.carousel-slider .control-arrow:hover {
-    background: transparent;
+  background: transparent;
 }
 .parent-loader {
-    background-color: #231E3D;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    width: 100%;
-    height: 100vh;
+  background-color: #231e3d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
 }
 .font-link {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
-.c-btn span:first-child{
+.c-btn span:first-child {
   transform: translateX(-101%);
-  transition: transform .3s ease-in
+  transition: transform 0.3s ease-in;
 }
-.c-btn:hover span{
-  transform: translateX(0)
+.c-btn:hover span {
+  transform: translateX(0);
 }
-.socials .footer-div span:last-child{
-    position: absolute;
-    top: 0;
+.socials .footer-div span:last-child {
+  position: absolute;
+  top: 0;
   right: 0;
   bottom: 0;
   left: 0;
@@ -42,26 +43,26 @@
 .socials span {
   transition: transform 0.2s ease-out;
 }
- 
+
 .socials .footer-div:hover span:first-child {
   transform: translateY(100%);
 }
- 
+
 .socials .footer-div:hover span:last-child {
   transform: none;
 }
-.boy-illustration{
+.boy-illustration {
   transform-origin: center;
   transform-style: preserve-3d;
   transform: scale(1);
   transition: transform 225ms ease-out;
 }
-.boy-illustration:hover{
+.boy-illustration:hover {
   transform: scale(1) rotateX(30deg) rotateY(0deg);
   transition: transform 380ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 .scrollTop {
-  position: fixed; 
+  position: fixed;
   width: auto;
   bottom: 20px;
   right: 30px;
@@ -73,7 +74,7 @@
   opacity: 0.5;
 }
 
-.scrollTop:hover{
+.scrollTop:hover {
   opacity: 1;
 }
 
@@ -86,17 +87,17 @@
   }
 }
 @media screen and (max-width: 768px) {
-    .contact-btn{
+  .contact-btn {
     display: none;
-    }
+  }
 }
 @media screen and (max-width: 400px) {
-    :placeholder-shown{
-        font-size: 12px;
-    }
+  :placeholder-shown {
+    font-size: 12px;
+  }
 }
-@media screen and (min-width:424px) and (max-width:500px) {
-    .submit-btn{
-        top: 7%;
-    }
+@media screen and (min-width: 424px) and (max-width: 500px) {
+  .submit-btn {
+    top: 7%;
+  }
 }
